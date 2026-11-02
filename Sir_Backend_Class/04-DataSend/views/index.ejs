@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/formsend" method="post">
+        <h1>Data Send Form</h1>
+        <p>
+            Name: <input type="text" name="name" id="">
+        </p>
+        <p>
+            Email: <input type="email" name="email" id="">
+        </p>
+        <p>
+            Age: <input type="number" name="age" id="">
+        </p>
+
+        <input type="submit">
+        <p><%= myname %></p>
+        <p><%= obj.name %></p>
+        <p><%= obj.age %></p>
+        <p><%= obj.city %></p>
+    </form>
+</body>
+
+</html>
